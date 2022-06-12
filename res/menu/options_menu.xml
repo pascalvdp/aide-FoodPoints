@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_count"
+		android:title="@string/menu_count"
+		android:showAsAction="ifRoom" />
+	<item android:id="@+id/menu_keyboard"
+		android:title="@string/menu_keyboard" 
+		android:icon="@drawable/ic_action_keyboard" 
+		android:showAsAction="ifRoom" />
+	<item android:id="@+id/search"
+		android:title="@string/menu_search" 
+		android:icon="@drawable/ic_menu_search"
+		android:showAsAction="collapseActionView|ifRoom"
+		android:actionViewClass="android.widget.SearchView" />
+	<item android:id="@+id/save"
+		android:title="@string/menu_save" 
+		android:icon="@drawable/ic_action_save" 
+		android:showAsAction="ifRoom" />
+	<item android:id="@+id/delete"
+		android:title="@string/menu_delete" 
+		android:icon="@drawable/ic_action_delete" 
+		android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center_horizontal" >
+
+    <Button
+		android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="Verwijderen" />
+	<Button
+		android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="Bewerken" />
+	<Button
+		android:id="@+id/daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="Kopieren naar dagelijkse lijst (←)" />
+	<Button
+		android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="Kopieren naar datum lijst (→)" />
+
+</LinearLayout>

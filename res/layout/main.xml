@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:gravity="left">
+        	
+			<TextView
+				android:id="@+id/textv1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:text="Dagelijkse lijst" />		
+		
+			<ListView
+        		android:id="@+id/list1"
+        		android:layout_width="fill_parent"
+       			android:layout_height="match_parent" />
+			
+			<CalendarView
+				android:id="@+id/calendarview" 
+				android:background="#000000" 
+				android:visibility="gone"
+				android:layout_gravity="center"
+				android:layout_width="350dp"
+				android:layout_height="350dp"
+				android:firstDayOfWeek="2"
+				android:selectedWeekBackgroundColor="#062E70" />
+			
+			<Button
+				android:id="@+id/datebutton"
+				android:text="datum vandaag"
+				android:visibility="gone"
+				android:layout_gravity="center"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:onClick="onClick" />
+		</LinearLayout>
+		<LinearLayout
+		android:layout_width="40dp"
+		android:layout_height="match_parent">
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" 
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:gravity="left">
+	
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" >
+				<Button
+					android:id="@+id/button1"
+					android:text="←"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="30dp"
+					android:onClick="onClick" />
+				<Button
+					android:id="@+id/buttondate"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:onClick="onClick" /> 
+				<Button
+					android:id="@+id/button2"
+					android:text="→" 
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:onClick="onClick" />
+				<ImageButton
+					android:id="@+id/buttondatelist"
+					android:src="@drawable/ic_action_view_as_list"
+					
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_marginLeft="20dp"
+					android:onClick="onClick" />
+			</LinearLayout>
+			<ListView
+				android:id="@+id/list2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+			<Button
+				android:id="@+id/buttondagtotaal"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:onClick="onClick" />
+ 		</LinearLayout>
+</LinearLayout>

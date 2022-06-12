@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="10dp" >
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+			<TextView
+				android:id="@+id/textView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/dialogtext1"
+				android:textAppearance="?android:attr/textAppearanceLarge" />
+			<Button
+				android:id="@+id/count"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/dialogtext2"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:gravity="right"  />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal" >
+			<EditText
+				android:id="@+id/input1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ems="20"
+				android:inputType="textAutoComplete" />
+			<EditText
+				android:id="@+id/input2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" 
+				android:ems="3"
+				android:layout_marginLeft="50dp"
+				android:inputType="number"  />
+		</LinearLayout>
+		
+		<ListView
+			android:id="@+id/listviewdialog"
+			android:layout_marginRight="50dp"
+			android:layout_width="match_parent"
+			android:layout_height="0dp" />
+	
+</LinearLayout>
+
+
+

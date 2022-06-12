@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="left"
+		android:padding="15dp" >
+		
+		<TextView
+			android:id="@+id/empty"
+			android:paddingLeft="45dp"
+			android:textSize="19dp"
+			android:textColor="?android:textColorPrimary"
+			android:text="Datumlijst is leeg."
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+		<Button
+			android:id="@+id/buttondatelistsdelete"
+			android:text="Verwijder alle datumlijsten"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+		<ListView
+			android:id="@+id/listviewdatedialog"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+		
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The name of the application. -->
+    <string name="app_name">FoodPoints</string>
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Food</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Zoek voedsel ( spatie = volledige lijst )</string>
+
+    <!-- The menu entry that invokes search,save... -->
+    <string name="menu_search">Zoek</string>
+	<string name="menu_save">Opslaan</string>
+	<string name="menu_count">Aantal overeenkomsten</string>
+	<string name="menu_keyboard">Verberg/toon toetsenbord</string>
+	<string name="menu_delete">Verwijder voedsellijst</string>
+	
+    <!-- The description that will show up in the search settings for this source. -->
+    <string name="settings_description">FoodPoints</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+		<item quantity="one">%1$d result for \"%2$s\": </item>
+		<item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+	
+	<!-- dialog text -->
+	<string name="dialogtext1">Beschrijving voedsel :</string>	
+	<string name="dialogtext2">Punten (0-50) :</string>	
+	
+	<!-- dialog savechangestext -->
+	<string name="changestext">vervangen door :</string>	
+
+	<!-- dialog daypointsmaxtext ,weekextratext -->
+	<string name="daypointsmaxtext">Dagelijks maximum punten (0-50) :</string>	
+	<string name="weekextratext">Wekelijks extra punten (0-100) :</string>	
+</resources>
